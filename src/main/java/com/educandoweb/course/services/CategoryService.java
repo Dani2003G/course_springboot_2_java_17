@@ -44,7 +44,7 @@ public class CategoryService {
 		}
 	}
 	
-	public Category update(long id, Category obj) {
+	public Category update(Long id, Category obj) {
 		try {
 			Category entity = repository.getOne(id);
 			updateData(entity, obj);
